@@ -4,10 +4,6 @@ This is an Alexa skill I wrote to retrieve market information.  It only has very
 
 Example:
 
-Q: What is the spread on apple ten year?
-A: The spread for Apple ten year is 40.
+Q: What is the spread on apple ten year?<br>A: The spread for Apple ten year is 40.
 
-Q: What is the spread for apple?
-A: For what year?
-Q: Ten year
-A: The spread for Apple ten year is 40.
+Q: What is the spread for apple?<br>A: For what year?<br>Q: Ten year<br>A: The spread for Apple ten year is 40.
