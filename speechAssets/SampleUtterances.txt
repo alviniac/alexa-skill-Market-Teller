@@ -1,0 +1,10 @@
+GetDataForIssuer what is the {DataPoint} for {Issuer} {Tenor}
+GetDataForIssuer what is the {DataPoint} on {Issuer} {Tenor}
+GetDataForIssuer what was the {DataPoint} for {Issuer} {Tenor} on {Date}
+GetDataForIssuer what was the {DataPoint} for {Issuer} {Tenor} {Date}
+GetDataForIssuer load {Issuer}
+GetDataForIssuer load {Issuer} {Tenor} 
+GetHoldingsForIssuer how much do I own of {Issuer} {Tenor}
+GetHoldingsForIssuer how much do I own of {Issuer}
+MatchTenor {Tenor}
+MatchDataPoint {DataPoint}

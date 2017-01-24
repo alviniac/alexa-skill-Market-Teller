@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "intent": "GetDataForIssuer",
+      "slots": [
+        {
+          "name": "Issuer",
+          "type": "LIST_OF_ISSUERS"
+        },
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        },
+        {
+          "name": "Tenor",
+          "type": "LIST_OF_TENORS"
+        },
+        {
+          "name": "DataPoint",
+          "type": "LIST_OF_DATAPOINTS"
+        },
+        {
+          "name": "IssuerOrTicker",
+          "type": "LIST_OF_ISSUER_OR_TICKER"
+        },
+        {
+          "name": "Date",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "MatchTenor",
+      "slots": [
+        {
+          "name": "Tenor",
+          "type": "LIST_OF_TENORS"
+        }
+      ]
+    },
+    {
+      "intent": "GetNumberOfTrades"
+    },
+    {
+      "intent": "MatchDataPoint",
+      "slots": [
+      	{
+          "name": "DataPoint",
+          "type": "LIST_OF_DATAPOINTS"
+        }
+      ]
+    },
+    {
+      "intent": "GetHoldingsForIssuer",
+      "slots": [
+        {
+          "name": "Issuer",
+          "type": "LIST_OF_ISSUERS"
+        },
+        {
+          "name": "Ticker",
+          "type": "LIST_OF_TICKERS"
+        },
+        {
+          "name": "Tenor",
+          "type": "LIST_OF_TENORS"
+        },
+        {
+          "name": "DataPoint",
+          "type": "LIST_OF_DATAPOINTS"
+        },
+        {
+          "name": "IssuerOrTicker",
+          "type": "LIST_OF_ISSUER_OR_TICKER"
+        },
+        {
+          "name": "Date",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    }
+  ]
+}
